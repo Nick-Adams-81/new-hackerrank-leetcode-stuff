@@ -10,6 +10,7 @@ public class Main {
         HasDuplicate duplicate = new HasDuplicate();
         IsAnagram anagram = new IsAnagram();
         TwoSum twoSum = new TwoSum();
+        GroupAnagrams anagrams = new GroupAnagrams();
 
         int[] nums = {1,2,3,4,5};
         int[] sums = {3,4,5,6};
@@ -17,9 +18,12 @@ public class Main {
         String string1 = "racecar";
         String string2 = "carrace";
 
+        String[] strs = {"hello", "olleh", "tommy", "mymot", "cars", "srac"};
+
         System.out.println(anagram.isAnagram(string1, string2));
         System.out.println(duplicate.hasDuplicate(nums));
         System.out.println(Arrays.toString(twoSum.twoSum(sums, 7)));
+        System.out.println(anagrams.groupAnagrams(strs));
 
     }
 }
