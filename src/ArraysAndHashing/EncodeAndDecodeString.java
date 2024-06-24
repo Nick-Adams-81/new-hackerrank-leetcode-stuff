@@ -1,8 +1,12 @@
+package ArraysAndHashing;
+
 import java.util.LinkedList;
 import java.util.List;
 
 public class EncodeAndDecodeString {
 
+    // 26708963
+    // nX56jQg
     final char delimiter = '#';
     public String encode(List<String> strs) {
 
